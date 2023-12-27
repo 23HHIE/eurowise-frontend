@@ -1,0 +1,267 @@
+label,
+input,
+button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.parent-element {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+.custom-navbar {
+    background-color: #757575;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.custom-navbar .nav-link {
+    color: #fff;
+    /* 导航项的字体颜色 */
+    font-size: 20px;
+    /* 根据需要调整字体大小 */
+    padding: 10px;
+    /* 可调整导航项的上下内边距 */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #3498DB;
+    /* 鼠标悬停时的字体颜色 */
+}
+
+.WelcomeComponent {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    height: 60vh;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.FormGroupLabel {
+    font-size: 18px !important;
+    /* 根据需要调整字体大小 */
+}
+
+.FormGroup {
+    margin-bottom: 6px;
+    /* 根据需要调整间距 */
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-card {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.read-more-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+.wel-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to right, #c5c1bf, #95785b);
+
+    transition: background 0.3s ease-in-out;
+
+}
+
+
+.table-borderless,
+.table-borderless th,
+.table-borderless td {
+    border: none !important;
+}
+
+.footer {
+
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #757575;
+    color: #fff;
+    min-height: 3vh;
+    margin-top: 5px;
+
+}
+
+
+
+.footer .col-md-6 h2 {
+    font-size: 18px;
+    /* 根据需要调整字体大小 */
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.footer .col-md-6 p {
+    font-size: 14px;
+    /* 根据需要调整字体大小 */
+
+    margin: 0;
+}
+
+.social-logo {
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.footer img {
+    background-color: #757575;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 0.8;
+    width: 45px;
+    /* 调整图标宽度，根据需要调整 */
+    height: 45px;
+    /* 调整图标高度，根据需要调整 */
+}
+
+
+
+/* header {
+    top: 0;
+    position: absolute;
+    width: 90%;
+    height: 40px;
+} */
+
+/* .FormLabel {
+    font-size: 18px;
+}
+
+.FormControl {
+    width: 50% !important;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    margin-top: 200px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.txt {
+    color: #61dafb;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #524232;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: #61d3;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 50px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c004c;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+} */
