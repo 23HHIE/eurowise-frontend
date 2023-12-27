@@ -9,6 +9,6 @@ import axios from 'axios'
 
 export const apiClient = axios.create(
     {
-         baseURL: 'http://eporqep6b4b8ql12.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/tzevkxgw6jnmbcq5'
+         baseURL: 'http://eurowise-98c1d6946202.herokuapp.com/'
      }
  )
